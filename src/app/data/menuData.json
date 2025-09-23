@@ -1,0 +1,217 @@
+{
+  "menuItems": [
+    {
+      "key": "dashboard",
+      "title": "Wizard",
+      "icon": "home",
+      "description": "Complete setup wizard",
+      "content": {
+        "title": "Setup Wizard",
+        "type": "wizard",
+        "wizardData": {
+          "steps": [
+            {
+              "title": "Personal Information",
+              "icon": "person-placeholder"
+            },
+            {
+              "title": "Project Details",
+              "icon": "project-definition-triangle"
+            },
+            {
+              "title": "Requirements",
+              "icon": "request"
+            },
+            {
+              "title": "Review & Submit",
+              "icon": "complete"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "products",
+      "title": "Products",
+      "icon": "product",
+      "description": "Manage product catalog",
+      "content": {
+        "title": "Products",
+        "type": "list",
+        "items": [
+          {
+            "title": "Product 1 - Laptop",
+            "description": "High-performance laptop",
+            "price": "$1,299"
+          },
+          {
+            "title": "Product 2 - Phone",
+            "description": "Latest smartphone",
+            "price": "$899"
+          },
+          {
+            "title": "Product 3 - Tablet",
+            "description": "10-inch tablet",
+            "price": "$599"
+          },
+          {
+            "title": "Product 4 - Headphones",
+            "description": "Wireless headphones",
+            "price": "$199"
+          }
+        ]
+      }
+    },
+    {
+      "key": "orders",
+      "title": "Orders",
+      "icon": "cart",
+      "description": "Track and manage orders",
+      "content": {
+        "title": "Orders",
+        "type": "list",
+        "items": [
+          {
+            "title": "Order #1001",
+            "description": "Pending",
+            "additionalText": "$2,340",
+            "status": "warning"
+          },
+          {
+            "title": "Order #1002",
+            "description": "Shipped",
+            "additionalText": "$1,250",
+            "status": "information"
+          },
+          {
+            "title": "Order #1003",
+            "description": "Delivered",
+            "additionalText": "$3,100",
+            "status": "success"
+          },
+          {
+            "title": "Order #1004",
+            "description": "Processing",
+            "additionalText": "$5,200",
+            "status": "information"
+          },
+          {
+            "title": "Order #1005",
+            "description": "Cancelled",
+            "additionalText": "$890",
+            "status": "error"
+          }
+        ]
+      }
+    },
+    {
+      "key": "customers",
+      "title": "Customers",
+      "icon": "customer",
+      "description": "Customer information",
+      "content": {
+        "title": "Customers",
+        "type": "list",
+        "items": [
+          {
+            "title": "John Smith",
+            "description": "john@example.com",
+            "additionalText": "Premium",
+            "icon": "customer"
+          },
+          {
+            "title": "Jane Doe",
+            "description": "jane@example.com",
+            "additionalText": "Standard",
+            "icon": "customer"
+          },
+          {
+            "title": "Mike Johnson",
+            "description": "mike@example.com",
+            "additionalText": "Premium",
+            "icon": "customer"
+          },
+          {
+            "title": "Sarah Williams",
+            "description": "sarah@example.com",
+            "additionalText": "Standard",
+            "icon": "customer"
+          }
+        ]
+      }
+    },
+    {
+      "key": "reports",
+      "title": "Reports",
+      "icon": "business-objects-experience",
+      "description": "Analytics and insights",
+      "content": {
+        "title": "Reports",
+        "type": "list",
+        "items": [
+          {
+            "title": "Monthly Sales Report",
+            "icon": "excel-attachment",
+            "description": "Last updated: Today",
+            "additionalText": "Download"
+          },
+          {
+            "title": "Customer Analysis",
+            "icon": "pdf-attachment",
+            "description": "Last updated: Yesterday",
+            "additionalText": "Download"
+          },
+          {
+            "title": "Inventory Report",
+            "icon": "doc-attachment",
+            "description": "Last updated: 2 days ago",
+            "additionalText": "Download"
+          },
+          {
+            "title": "Performance Metrics",
+            "icon": "chart-table-view",
+            "description": "Real-time data",
+            "additionalText": "View"
+          }
+        ]
+      }
+    },
+    {
+      "key": "settings",
+      "title": "Settings",
+      "icon": "action-settings",
+      "description": "System configuration",
+      "content": {
+        "title": "Settings",
+        "type": "list",
+        "items": [
+          {
+            "title": "User Settings",
+            "icon": "user-settings",
+            "description": "Manage your profile and preferences"
+          },
+          {
+            "title": "General Settings",
+            "icon": "settings",
+            "description": "Application configuration"
+          },
+          {
+            "title": "Security",
+            "icon": "shield",
+            "description": "Security and privacy settings"
+          },
+          {
+            "title": "Theme Settings",
+            "icon": "palette",
+            "description": "Customize appearance"
+          },
+          {
+            "title": "Notifications",
+            "icon": "bell",
+            "description": "Manage notification preferences"
+          }
+        ]
+      }
+    }
+  ]
+}
