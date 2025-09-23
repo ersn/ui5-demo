@@ -11,6 +11,13 @@ const UI5Wrapper = ({ children }) => {
     // Dynamically import all UI5 components
     const loadUI5Components = async () => {
       try {
+        // Load CLDR data for Norwegian locale
+        await import("@ui5/webcomponents-localization/dist/generated/cldr/nb.js");
+
+        // Set locale configuration
+        const { setLanguage } = await import("@ui5/webcomponents-base/dist/config/Language.js");
+        setLanguage("nb");
+
         await Promise.all([
           import("@ui5/webcomponents/dist/Button.js"),
           import("@ui5/webcomponents/dist/Input.js"),
