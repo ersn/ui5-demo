@@ -12,7 +12,7 @@ const UI5Wrapper = ({ children }) => {
     const loadUI5Components = async () => {
       try {
         // Load CLDR data for Norwegian locale
-        await import("@ui5/webcomponents-localization/dist/generated/cldr/nb.js");
+        await import("@ui5/webcomponents-localization/dist/generated/json-imports/LocaleData.js");
 
         // Set locale configuration
         const { setLanguage } = await import("@ui5/webcomponents-base/dist/config/Language.js");
