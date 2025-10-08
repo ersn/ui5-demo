@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react";
 import menuData from "./data/menuData.json";
-import MasterPage from "./components/MasterPage";
-import DetailPage from "./components/DetailPage";
+import MasterPage from "./pages/MasterPage";
+import DetailPage from "./pages/DetailPage";
 import UI5Wrapper from "./components/UI5Wrapper";
 
 

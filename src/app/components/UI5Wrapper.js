@@ -40,6 +40,12 @@ const UI5Wrapper = ({ children }) => {
           import("@ui5/webcomponents/dist/TabContainer.js"),
           import("@ui5/webcomponents/dist/Tab.js"),
           import("@ui5/webcomponents/dist/Panel.js"),
+          import("@ui5/webcomponents/dist/Link.js"),
+          import("@ui5/webcomponents/dist/Table.js"),
+          import("@ui5/webcomponents/dist/TableHeaderRow.js"),
+          import("@ui5/webcomponents/dist/TableHeaderCell.js"),
+          import("@ui5/webcomponents/dist/TableRow.js"),
+          import("@ui5/webcomponents/dist/TableCell.js"),
           import("@ui5/webcomponents-fiori/dist/Assets.js"),
           import("@ui5/webcomponents-icons/dist/AllIcons.js"),
         ]);

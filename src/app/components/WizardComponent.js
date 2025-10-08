@@ -1,11 +1,11 @@
 "use client";
 
-import useWizardState from "../hooks/useWizardState";
-import StepIndicator from "./wizard-steps/StepIndicator";
-import PersonalInfoStep from "./wizard-steps/PersonalInfoStep";
-import ProjectDetailsStep from "./wizard-steps/ProjectDetailsStep";
-import RequirementsStep from "./wizard-steps/RequirementsStep";
-import ReviewStep from "./wizard-steps/ReviewStep";
+import useWizardState from "../hooks/useWizardState.js";
+import StepIndicator from "./wizard-steps/StepIndicator.js";
+import PersonalInfoStep from "./wizard-steps/PersonalInfoStep.js";
+import ProjectDetailsStep from "./wizard-steps/ProjectDetailsStep.js";
+import RequirementsStep from "./wizard-steps/RequirementsStep.js";
+import ReviewStep from "./wizard-steps/ReviewStep.js";
 
 export default function WizardComponent({ wizardData }) {
   const {
